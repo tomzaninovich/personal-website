@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tom Zaninovich</title>
+  <meta name="description" content="Tom Zaninovich — personal website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Tom Zaninovich</h1>
+      <p class="tagline">This is a demo page, live on GitHub Pages at www.tomzaninovich.com.</p>
+    </header>
+
+    <section class="links">
+      <a href="https://github.com/tomzaninovich" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:thomaszaninovich@gmail.com">Email</a>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Tom Zaninovich</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
