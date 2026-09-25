@@ -1,10 +1,10 @@
 :root {
-  --bg: #0f1115;
-  --bg-alt: #171a21;
-  --fg: #f4f4f5;
-  --muted: #9aa0a6;
-  --accent: #6ea8fe;
-  --border: #262a33;
+  --bg: #faf6ef;
+  --bg-alt: #f1ebdf;
+  --fg: #2b2822;
+  --muted: #7a7468;
+  --accent: #8a3b34;
+  --border: #e2d9c7;
 }
 
 * {
@@ -28,7 +28,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(15, 17, 21, 0.9);
+  background: rgba(250, 246, 239, 0.9);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--border);
 }
@@ -63,10 +63,20 @@ body {
   color: var(--fg);
 }
 
+/* Cover photo */
+.cover {
+  height: 220px;
+  background-color: var(--bg-alt);
+  background-image: url("cover.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid var(--border);
+}
+
 /* Hero */
 .hero {
   text-align: center;
-  padding: 3.5rem 1.5rem 2.5rem;
+  padding: 0 1.5rem 2.5rem;
 }
 
 .headshot {
@@ -74,8 +84,11 @@ body {
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--border);
+  border: 4px solid var(--bg);
+  background: var(--bg);
+  margin-top: -70px;
   margin-bottom: 1.25rem;
+  box-shadow: 0 1px 4px rgba(43, 40, 34, 0.15);
 }
 
 .hero h1 {
