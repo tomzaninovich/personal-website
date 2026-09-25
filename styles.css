@@ -1,10 +1,11 @@
 :root {
-  --bg: #faf6ef;
-  --bg-alt: #f1ebdf;
-  --fg: #2b2822;
-  --muted: #7a7468;
-  --accent: #8a3b34;
-  --border: #e2d9c7;
+  --bg: #ffffff;
+  --bg-alt: #eef3f9;
+  --fg: #1c2b3a;
+  --muted: #5b6b7a;
+  --accent: #003262;
+  --gold: #c4820e;
+  --border: #dbe4ee;
 }
 
 * {
@@ -28,7 +29,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(250, 246, 239, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(6px);
   border-bottom: 1px solid var(--border);
 }
@@ -46,6 +47,7 @@ body {
 
 .brand {
   font-weight: 600;
+  color: var(--accent);
 }
 
 .topnav-links {
@@ -88,7 +90,7 @@ body {
   background: var(--bg);
   margin-top: -70px;
   margin-bottom: 1.25rem;
-  box-shadow: 0 1px 4px rgba(43, 40, 34, 0.15);
+  box-shadow: 0 0 0 3px var(--gold), 0 1px 4px rgba(28, 43, 58, 0.15);
 }
 
 .hero h1 {
@@ -187,7 +189,7 @@ body {
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: var(--accent);
+  color: var(--gold);
   margin: 1rem 0 0.5rem;
 }
 
