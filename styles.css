@@ -232,23 +232,28 @@ body {
   margin: 1.5rem 0 0.5rem;
 }
 
-.publications {
+.link-list {
   margin: 0;
   padding-left: 1.2rem;
 }
 
-.publications li {
+.link-list li {
   margin-bottom: 0.5rem;
 }
 
-.publications a {
+.link-list a {
   color: var(--accent);
   text-decoration: none;
   font-weight: 500;
 }
 
-.publications a:hover {
+.link-list a:hover {
   text-decoration: underline;
+}
+
+.page-intro {
+  border-top: none;
+  padding-top: 2.5rem;
 }
 
 /* Footer */
