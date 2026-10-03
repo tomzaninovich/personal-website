@@ -224,6 +224,33 @@ body {
   color: var(--muted);
 }
 
+.subhead {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  margin: 1.5rem 0 0.5rem;
+}
+
+.publications {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.publications li {
+  margin-bottom: 0.5rem;
+}
+
+.publications a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.publications a:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 footer {
   text-align: center;
